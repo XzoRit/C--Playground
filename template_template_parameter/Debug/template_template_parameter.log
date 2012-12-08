@@ -1,0 +1,17 @@
+﻿Build started 02.11.2012 21:05:40.
+Project "Z:\TobisProjekte\Projekte\EigeneProgramme\C++\VisualStudio2010\ModernesC++Design\template_template_parameter\template_template_parameter.vcxproj" on node 2 (Build target(s)).
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\template_template_parameter.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt template_template_parameter.cpp
+  template_template_parameter.cpp
+z:\tobisprojekte\projekte\eigeneprogramme\c++\visualstudio2010\modernesc++design\template_template_parameter\template_template_parameter.cpp(22): error C2988: unrecognizable template declaration/definition
+z:\tobisprojekte\projekte\eigeneprogramme\c++\visualstudio2010\modernesc++design\template_template_parameter\template_template_parameter.cpp(22): error C2059: syntax error : '<L_TEMPLATEDECL>'
+z:\tobisprojekte\projekte\eigeneprogramme\c++\visualstudio2010\modernesc++design\template_template_parameter\template_template_parameter.cpp(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\tobisprojekte\projekte\eigeneprogramme\c++\visualstudio2010\modernesc++design\template_template_parameter\template_template_parameter.cpp(13): error C2988: unrecognizable template declaration/definition
+z:\tobisprojekte\projekte\eigeneprogramme\c++\visualstudio2010\modernesc++design\template_template_parameter\template_template_parameter.cpp(13): error C2059: syntax error : ','
+z:\tobisprojekte\projekte\eigeneprogramme\c++\visualstudio2010\modernesc++design\template_template_parameter\template_template_parameter.cpp(25): error C2143: syntax error : missing ';' before '{'
+z:\tobisprojekte\projekte\eigeneprogramme\c++\visualstudio2010\modernesc++design\template_template_parameter\template_template_parameter.cpp(25): error C2447: '{' : missing function header (old-style formal list?)
+Done Building Project "Z:\TobisProjekte\Projekte\EigeneProgramme\C++\VisualStudio2010\ModernesC++Design\template_template_parameter\template_template_parameter.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.60

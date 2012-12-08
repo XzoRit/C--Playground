@@ -1,0 +1,50 @@
+﻿Der Buildvorgang wurde am 09.05.2011 09:23:45 gestartet.
+     1>Projekt "D:\Projects\VisualStudio\ModernesC++Design\WrappingInclWithGuard\WrappingInclWithGuard.vcxproj" auf Knoten "2", build Ziel(e).
+     1>InitializeBuildStatus:
+         Aktualisieren des Timestamps von "Debug\WrappingInclWithGuard.unsuccessfulbuild".
+       ClCompile:
+         Alle Ausgaben sind aktuell.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Projects\C++\boost_1_46_1 /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\WrappingInclWithGuard.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt WrappingInclWithGuard.cpp
+         WrappingInclWithGuard.cpp
+     1>d:\projects\c++\boost_1_46_1\boost\aligned_storage.hpp(79): error C2872: 'detail': Mehrdeutiges Symbol
+                 könnte 'boost::detail' sein
+                 oder "boost::multi_index::detail"
+                 d:\projects\c++\boost_1_46_1\boost\utility\value_init.hpp(93): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "boost::aligned_storage<size_,alignment_>".
+                 with
+                 [
+                     size_=1,
+                     alignment_=1
+                 ]
+                 d:\projects\c++\boost_1_46_1\boost\utility\value_init.hpp(184): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "boost::initialized<T>".
+                 with
+                 [
+                     T=boost::wave::util::from
+                 ]
+                 d:\projects\c++\boost_1_46_1\boost\wave\util\cpp_include_paths.hpp(186): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "boost::value_initialized<T>".
+                 with
+                 [
+                     T=boost::wave::util::from
+                 ]
+     1>d:\projects\c++\boost_1_46_1\boost\aligned_storage.hpp(53): error C2872: 'detail': Mehrdeutiges Symbol
+                 könnte 'boost::detail' sein
+                 oder "boost::multi_index::detail"
+                 d:\projects\c++\boost_1_46_1\boost\aligned_storage.hpp(56): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "boost::detail::aligned_storage::aligned_storage_imp<size_,alignment_>::data_t".
+                 with
+                 [
+                     size_=1,
+                     alignment_=1
+                 ]
+                 d:\projects\c++\boost_1_46_1\boost\aligned_storage.hpp(80): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "boost::detail::aligned_storage::aligned_storage_imp<size_,alignment_>".
+                 with
+                 [
+                     size_=1,
+                     alignment_=1
+                 ]
+     1>d:\projects\c++\boost_1_46_1\boost\aligned_storage.hpp(84): error C2872: 'detail': Mehrdeutiges Symbol
+                 könnte 'boost::detail' sein
+                 oder "boost::multi_index::detail"
+     1>Die Erstellung des Projekts "D:\Projects\VisualStudio\ModernesC++Design\WrappingInclWithGuard\WrappingInclWithGuard.vcxproj" ist abgeschlossen, build Ziel(e) -- FEHLER.
+
+Fehler beim Erstellen
+
+Verstrichene Zeit 00:00:25.06

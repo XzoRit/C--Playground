@@ -1,0 +1,6 @@
+						bytes		delta
+Startvalue				80.384
+declare descriptor		80.408		  24
+1 identifier, 1 id		80.408		   0
+1 identifier, 2 ids		81.408		1000
+2 identifiers, 4 ids	86.528
